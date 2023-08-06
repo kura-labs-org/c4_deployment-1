@@ -58,6 +58,3 @@ def page_not_found(error):
 @app.route('/api')
 def session_api():
     return jsonify(list(session.keys()))
-
-def greet(person):
-  return f"Hi {person}"
