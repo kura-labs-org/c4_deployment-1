@@ -5,7 +5,7 @@
 
 Demonstrate your ability to run a Jenkins build and manually deploy to Elastic Beanstalk.
 
-- Create a separate GitHub repository for your application pipeline
+- Create a separate GitHub repository for this application 
 
 - Download the files from this repository and upload them to your newly created repository 
 
