@@ -8,7 +8,6 @@ pipeline {
         source test3/bin/activate
         pip install pip --upgrade
         pip install -r requirements.txt
-        flask run 
         '''
      }
    }
