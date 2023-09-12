@@ -27,6 +27,6 @@ pipeline {
        
       }
     }
-   
+   stage (‘Deploy’) { steps { Sh ‘eb deploy "Your ENVIRONMENT name" } } 
   }
  }
