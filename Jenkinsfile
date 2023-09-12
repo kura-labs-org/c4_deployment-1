@@ -27,6 +27,10 @@ pipeline {
        
       }
     }
-   stage (‘Deploy’) { steps { Sh ‘eb deploy "Your ENVIRONMENT name" } } 
+   stage (‘Deploy’) { 
+     steps { 
+     sh ‘eb deploy /var/lib/jenkins/workspace/test-c4
+      } 
+    } 
   }
  }
