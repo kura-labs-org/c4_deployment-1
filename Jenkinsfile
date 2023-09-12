@@ -29,7 +29,7 @@ pipeline {
     }
    stage (‘Deploy’) { 
      steps { 
-     sh '/home/ubuntu/.local/bin/eb deploy /var/lib/jenkins/workspace/test-c4'
+     sh '/home/ubuntu/.local/bin/eb deploy'
       } 
     } 
   }
